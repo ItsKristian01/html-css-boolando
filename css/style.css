@@ -11,12 +11,13 @@ img{
     max-width: 100%;
 }
 
+/* CONTAINER */
 .container {
     width: 70%;
     margin: 0 auto;
     margin-top: 2rem;
 }
-
+/* GRID */
 .row {
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,9 @@ img{
     margin-bottom: 2rem;
     position: relative;
 }
+/* GRID */
 
+/* TEXT DECORATION */
 .price {
     color: red;
 }
@@ -36,6 +39,7 @@ img{
 .sale {
     text-decoration: line-through;
 }
+/* TEXT DECORATION */
 
 .discount {
     background-color: red;
