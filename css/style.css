@@ -17,6 +17,7 @@ img{
     margin: 0 auto;
     margin-top: 2rem;
 }
+
 /* GRID */
 .row {
     display: flex;
@@ -49,6 +50,7 @@ img{
     position: absolute;
     left: 0;
     bottom: 80px;
+    z-index: 2;
 }
 
 .green {
@@ -58,6 +60,11 @@ img{
     position: absolute;
     left: 50px;
     bottom: 80px;
+    z-index: 2;
+}
+
+.badges {
+    padding: .3rem .8rem;
 }
 
 .green-last {
@@ -66,8 +73,31 @@ img{
 }
 
 .hearts{
-    font-size: 50px;
+    font-size: 30px;
+    padding: 10px;
     background-color: white;
     position: absolute;
     right: 0;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.card-img img {
+   display: block;
+}
+
+.card-img {
+    position: relative;
+}
+
+.back-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.card-img:hover .back-img {
+    z-index: 1;
 }
