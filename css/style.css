@@ -83,6 +83,10 @@ img{
     cursor: pointer;
 }
 
+.hearts:hover {
+    color: red;
+}
+
 .card-img img {
    display: block;
 }
