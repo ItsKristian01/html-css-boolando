@@ -137,3 +137,29 @@ header {
     list-style-type: none;
     gap: .5rem;
   }
+
+  /* FOOTER */
+
+  .foot-bar {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+  }
+
+.bool {
+    color: white;
+}
+
+.text{
+    display: inline-block;
+    margin-left: 170px;
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.right-menu {
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 380px;
+}
